@@ -15,8 +15,8 @@
 }
 
 .box {
-  width: 320px;
-  height: 400px;
+  width: 330px;
+  height: 450px;
   background: #eeedef;
   border-radius: 5px;
   display: flex;
@@ -53,13 +53,18 @@
   background: #29be6c;
 }
 
+.pending {
+  background: yellow;
+  color: gray !important;
+}
+
 .innerBox {
   width: 80%;
   background: white;
-  /* margin: 10px; */
   padding: 15px;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .hide {

@@ -5,7 +5,7 @@ for (box of innerBoxes) {
   box.addEventListener("dragstart", (e) => {
     setTimeout(() => {
       e.target.className += " hide";
-    }, 0);
+    }, 100);
   });
 
   box.addEventListener("dragend", (e) => {
